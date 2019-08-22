@@ -29,9 +29,12 @@
 
 [문제 3,4번 설명서] 
  1. h2 database의 기존에 등록된 아래의 URL을 저장한다.
-  -> 입력 : http://kakao.com/Url_shorting  -> 출력 : http://localhost:8080/U2achOsq
+  -> 입력 : http://kakao.com/Url_shorting
+  -> 출력 : http://localhost:8080/U2achOsq
+  
  2. URL Shortenering 된 URL을 입력 시 리다이렉트한다.
-  -> 입력 : http://localhost:8080/U2achOsq -> 출력 : http://kakao.com/Url_shorting
+  -> 입력 : http://localhost:8080/U2achOsq
+  -> 출력 : http://kakao.com/Url_shorting
   
 [문제 5번] - database 사용은 필수 아님(선택)
 
