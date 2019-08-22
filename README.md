@@ -10,11 +10,13 @@
 ## 기능 및 설명서
 
 [문제 1번] - webapp으로 개발하고 URL 입력폼 제공 및 결과 출력한다.
+
 [문제 1번 설명서]
  1. 입력폼은 jsp 페이지로 구현하였으며, input box의 url을 입력한다.
  2. http://kakao.com/Url_shorting -> 입력 시 http://localhost:8080/U2achOsq 출력된다.
 
 [문제 2번] - URL Shortening Key 8 Character 이내로 생성되어야 한다.
+
 [문제 2번 설명서]
  1. 8자리 문자열을 추출 할 때, 마지막 "/" 문자를 저장 할 하나의 변수를 생성한다.
  2. 숫자 10개, 소문자 영문 26개, 대문자 영문 26개의 값은 62개이다.
@@ -22,7 +24,9 @@
  4. 마지막으로 생성한 변수의 추출한 문자를 저장한다. 
  
 [문제 3번] - 동일한 URL에 대한 요청은 동일한 Shortening Key로 응답한다.
+
 [문제 4번] - Shortening된 URL을 요청받으면 원래 URL로 리다이렉트한다.
+
 [문제 3,4번 설명서] 
  1. h2 database의 기존에 등록된 아래의 URL을 저장한다.
   -> 입력 : http://kakao.com/Url_shorting  -> 출력 : http://localhost:8080/U2achOsq
@@ -30,6 +34,7 @@
   -> 입력 : http://localhost:8080/U2achOsq -> 출력 : http://kakao.com/Url_shorting
   
 [문제 5번] - database 사용은 필수 아님(선택)
+
 [문제 5번 설명서]
  1. database 사용은 h2 database를 사용하였습니다.
  2. database 경로는 application.properties 설정파일에 저장되어 있습니다.
